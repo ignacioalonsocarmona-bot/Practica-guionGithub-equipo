@@ -3,3 +3,5 @@ def login(usuario, password):
         return False    
     print(f"Iniciando sesion para {usuario}")
     return True
+
+PUERTO_AUTH = 8443
